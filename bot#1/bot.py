@@ -122,8 +122,7 @@ def on_divide(message):
 	if oper2 == 0:
 		bot.reply_to(
 			message,
-			f"\U0000274C Imposible realizar la operación, el denominador no
-			puede ser cero.")
+			f"\U0000274C Imposible realizar la operación, el denominador no puede ser cero.")
 		return
 
 	result = oper1 / oper2
